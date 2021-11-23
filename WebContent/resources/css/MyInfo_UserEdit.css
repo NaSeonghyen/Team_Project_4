@@ -1,0 +1,122 @@
+/* 20210901 윤소라 마이페이지 메인페이지 css 작업 START */
+/*20211101 신정민 CSS 추가 수정 */
+#myinfo_main{
+	margin-bottom: 50%;
+	
+}
+/* 마이페이지의 링크 */
+#mypage_menu_container a {
+	text-decoration: none;
+	color:#505050;
+}
+/* 마이페이지 제목 */
+#myinfo {
+	background-color: #c0cde0;
+	border-radius: 100px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 10px;
+	font-size: 22px;
+	color: white;
+	text-align:center;
+	font-weight:bold;
+	width: 23%;
+}
+
+/* 유저이름 */
+#user_name {
+	font-weight:bold;
+	color:#333;
+	font-size: 22px;
+	float:left;
+}
+
+/* 적립금 금액 */
+#present {
+	color:#ff9d9d;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+/* 회원정보 정렬 */
+#myinfo_name {
+	padding-top:30px;
+	float:left;
+}
+
+#mypage_menu_container{
+	float:left;
+	width:19%;	
+	
+}
+
+#mypage_menu{
+	width: 100%;
+    border: 1px solid #ccc;
+    
+    padding-bottom: 10px;	
+}
+
+#mypage_menu div.head {
+    padding: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 18px;
+    border-top: 1pxsolid #ccc;
+    margin-top: 10px;
+}
+#mypage_menu div.item a.cart_page {
+    background: url(../img/cart.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.order_page {
+    background: url(../img/order.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.account_edit {
+    background: url(../img/account.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.inquiry {
+    background: url(../img/inquiry.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a {
+    display: block;
+    padding: 15px;
+    padding-left: 70px;
+}
+#mypage_content_container{
+    float:right;
+    width:78%;
+}
+#mypage_content_container #order_status{
+ 
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 25px 0 20px 0;
+    margin-bottom: 10px;
+}
+#mypage_content_container .order_status_title{
+	float:left;
+	font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+#mypage_content_container #order_status img{
+	max-width:90%;
+}
+.ordernotice {
+    padding-top: 3%;
+}
+#mypage_content_container .ordernotice p{
+    text-indent: 20px;
+    font-size: 14px;
+    background: url(../img/p_tag.png)no-repeat 0 6px;
+    padding:4px;
+}
+/* 20210901 윤소라 마이페이지 메인페이지 css 작업 END */

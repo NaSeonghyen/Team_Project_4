@@ -1,0 +1,222 @@
+/* 20210902 윤소라 장바구니페이지 CSS 작업 START */
+/*20211101 이상훈 CSS 추가 수정 */
+/* 장바구니 내 있는 링크 */
+.cart_main{
+	float: right;
+    width: 79%;
+    margin-top: -28px;
+}
+
+.cart_main a{
+  text-decoration: none;
+  color:white;
+}
+.main_container{
+	margin-bottom:70%;
+}
+#mypage_menu_container{
+	float:left;
+	width:18%;	
+	
+}
+
+#mypage_menu{
+	width: 100%;
+    border: 1px solid #ccc;
+    
+    padding-bottom: 10px;	
+}
+#mypage_menu_container{
+	float:left;
+	width:19%;		
+}
+#mypage_menu_container a {
+	text-decoration: none;
+	color:#505050;
+}
+#mypage_menu div.head {
+    padding: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 18px;
+    border-top: 1pxsolid #ccc;
+    margin-top: 10px;
+}
+#mypage_menu div.item a.cart_page {
+    background: url(../img/cart.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.order_page {
+    background: url(../img/order.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.account_edit {
+    background: url(../img/account.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.inquiry {
+    background: url(../img/inquiry.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a {
+    display: block;
+    padding: 15px;
+    padding-left: 70px;
+}
+.black{
+  color : white;
+  background-color : black;
+}
+/* 장바구니 타이틀 */
+#myinfo {
+	background-color: #c0cde0;
+	border-radius: 100px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 10px;
+	font-size: 22px;
+	color: white;
+	text-align:center;
+	font-weight:bold;
+	width: 23%;
+}
+/* 장바구니 테이블 */
+table{
+  margin-top : 30px;
+  margin-bottom : 10px;
+  text-align : center;
+  border-collapse: collapse;
+}
+/* 장바구니 테이블 헤드 */
+thead{
+  border-top:1px solid #333;
+}
+/* 장바구니 테이블 헤드,바디 */
+table th,td{
+  padding : 15px;
+  border-bottom:1px solid rgb(207, 206, 206);
+}
+/* 장바구니 테이블 바디 */
+table td{
+  text-align : center;
+}
+/* 장바구니 이미지 */
+.thum img{
+  border : 2px solid black;
+  width : 100px;
+  height : 120px;
+}
+/* 장바구니 상품이름 */
+.cart_product{
+  text-align : left;
+}
+/* 장바구니  상품정보*/
+.cart_product #cart_leftname{
+  color : black;
+}
+/* 장바구니 옵션내용 */
+.cart_option{
+  color :rgb(153, 148, 142);
+}
+/*  장바구니 하부 전체 */
+.cart_submain{
+	width : 100%;
+	
+	margin-top : 30px;
+	margin-bottom : 50px;
+}
+
+/* 장바구니 하부 오른쪽 버튼 */
+.cart_button_container { 
+	float:right;
+	margin-right:-20px;
+	display:flex;
+}
+/* 장바구니 하부 전체상품주문,장바구니비우기 버튼 */
+.delete_button{
+	font-size: 18px;
+	border-radius: 4px;
+	height: 50px;
+    width: 140px;
+    vertical-align: middle;
+	color: white;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin-right: 50px;
+    padding: 10px;
+    text-align:center;
+}
+
+.delete_button:hover{
+	background-color:gray;
+	
+}
+/* 수량변경 텍스트 */
+#cart_quantity{
+  padding: 0;
+  font-size : 20px;
+  height: 30px;
+}
+
+#quan_change{
+  background-color : black;
+  color : white;
+  margin-top : 10px;
+  cursor : pointer;
+  width : 70px;
+  height : 45px;
+}
+/* 장바구니 테이블 내 선택버튼 */
+#cart_select {
+	margin-top : 25px;
+}
+/* 장바구니 테이블 내 선택버튼 */
+#cart_select1{
+	font-size: 18px;
+	border-radius: 4px;
+	height: 50px;
+    width: 100px;
+    vertical-align: middle;
+	color: white;
+    background-color: #c0cde0;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+        padding: 10px;   
+}
+#cart_select2{
+	margin-top:15px;
+	font-size: 18px;
+	border-radius: 4px;
+	height: 50px;
+    width: 100px;
+    vertical-align: middle;
+	color: white;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    cursor: pointer; 
+    padding: 10px;  
+}
+#cart_select1:hover{
+	background-color:gray;
+}
+#cart_select2:hover{
+	background-color:gray;
+}
+/* 장바구니 페이저 전체 */
+.cart_pager{
+	text-align : center;
+	margin-bottom : 10px;
+}
+/* 장바구니 페이저 */
+.cart_pager li{
+	display : inline-block;
+	list-style-type: none;
+	padding : 5px;
+	margin : 10px;
+	font-size : 25px;
+}
+
+
+/* 20210902 윤소라 장바구니페이지 CSS 작업 End */

@@ -1,0 +1,281 @@
+/* 20210903 이상훈 상품 상세페이지 CSS 작업 START */
+/* 20211101 나성현, 이상훈 CSS 추가 수정 */
+/* 컨테이너 영역 가운데 정렬 */
+.item-view-container{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* float 해제 */
+.clear {
+	clear:both;
+}
+
+/* 상단 레이아웃 */
+.item-view-container .item-top {
+	display: flex;
+    width: 100%;
+    margin: 5% 0;
+}
+
+/* 상단 이미지 크기 및 제품 정보와의 간격 */
+.item-top img{
+	width: 40%;
+	margin-right: 10%; 
+}
+
+/* 상단 제품 정보 너비 지정 및 높이 방식 지정 */
+.item-top-info{
+	width: 50%;
+	color: #000000;
+}
+
+/* 상품명 글자 크기 */
+.item-title{
+	margin-top:30px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/* 상품 태그 글자 크기 및 색 */
+.item-tag {
+	color: 	#C0CDF3;
+	font-size:16px;
+	font-weight: 500;
+}
+
+/* 상품 가격 글자 크기 및 배치 */
+.item-price{
+	
+	margin-top:30px;
+	font-size: 25px;
+	border-bottom:1px solid #cccccc;
+	
+}
+.item-price .price_css{
+	color: #C0CDFB;
+	font-weight: 600;
+}
+
+.row{
+	margin-top:15px;
+}
+#d_key{
+	float:left;
+	width:34.1%;
+	font-size: 20px;
+	color:#333;
+	font-weight: 600;
+}
+#d_value{
+	color:#333;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* 제품 정보 옵션 높이 지정*/
+.item-top-info-option {
+	margin:3% 0;
+	display: inline-block;
+}
+
+.option{
+	display:flex;
+}
+/* 제품 정보 옵션 배치*/
+.option-label {
+	font-size: 18px;
+	color:#333;
+	font-weight: 600;
+	
+}
+.option-label2 {
+	
+	font-size: 18px;
+	color:#333;
+	font-weight: 600;
+}
+
+.option-selector{
+	height:50px;
+}
+.option-selector-css {
+	color: #333;
+	font-size: 14px;
+	width:180px;
+	height: 34px;
+	margin-left:83%;
+	padding-left:5px;
+	background-color: #F9F9FB;
+	
+}
+.option-selector-css2{
+	color: #333;
+	font-size: 14px;
+	width:160px;
+	height: 34px;
+}
+
+
+
+/* 총 상품금액 배치 */
+.product_total_cost {
+	
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.total_value{
+	color:#C0CDFB;
+	font-size:25px;
+}
+.label_wrap{
+	margin-top:15px;
+	border-bottom:1px solid #cccccc;
+}
+/* 총 상품금액 배치 II */
+.total_label {
+	font-size: 18px;
+	color:#333;
+	font-weight: 600;
+	float: left;
+	width:35%;
+}
+
+/* 버튼 레이아웃 */
+.product_button{
+	
+	margin-top: 50px;
+}
+
+/* 구매하기 박스 크기 / 글자 색 / 간격  설정 */
+.product_button .btn-buy {
+    font-size: 18px;
+	border-radius: 4px;
+	height: 50px;
+    width: 150px;
+    vertical-align: middle;
+	color: white;
+    background-color: #c0cde0;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin-left: 60px;
+    
+}
+
+/* 장바구니 박스 크기 / 글자 색 / 간격 설정 */
+.product_button .btn-cart {
+    font-size: 18px;
+	border-radius: 4px;
+	height: 50px;
+    width: 150px;
+    vertical-align: middle;
+	color: white;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    cursor: pointer;   
+}
+.product_button .btn-buy:hover{
+	background-color: gray;  
+}
+.product_button .btn-cart:hover{
+	background-color: gray;    
+}
+
+/* 하단 레이아웃 */
+.item-down {
+    width: 100%;
+    margin: 5% 0;
+}
+
+/* 상세정보 제품리뷰 메뉴 설정 */
+.item-info-tab {
+    width: 100%;
+    text-align: center;
+    max-width: 1080;
+    border:0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 20%;
+    
+}
+
+
+/* 상세정보 제품리뷰 메뉴 설정2 */
+.item-info-tab td a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.item-info-tab td a:hover {
+    color: #c0cde0;
+    border-bottom: #ffc045;
+   
+}
+
+
+/* 주의사항 글자 설정 */
+.item-notice {
+    font-size: 20px;
+    color: #333;
+    font-family:'Noto Sans KR'; 
+    margin-top: 5%;
+}
+
+/* 제품 리뷰 */
+.img-info img{
+	width: 100%;
+	margin: auto 0;
+	
+}
+
+/* 이미지 간격 설정 */
+.img-info {
+    margin-top: 5%;
+}
+
+/* 리뷰/푸터 간격 설정 */
+.item-review {
+    margin-bottom: 5%;
+}
+
+/* 리뷰 와 텍스트 간격 설정 */
+.item-review .item-review-title {
+    padding-bottom: 5%;
+}
+
+/* 리뷰 배치 설정 */
+.item-review dl{
+    display: flex;
+}
+
+/* 리뷰 입력창 크기 설정 */
+.item-review textarea{
+    width: 80%;
+    height: 80px;
+}
+
+/* 등록 버튼 설정 */
+.item-review .item-review-btn {
+    width: 10%;
+    margin-left: -20px;
+}
+
+
+.people-review-write {
+    margin-top: 5%;
+}
+
+.people-review-write dl dt {
+    padding: 2% 2% 1%;
+    width: 20%;
+}
+
+ /* 여백 설정 */
+.item-view-container {
+    padding-bottom: 80px;
+}
+
+/* 20210903 이상훈 상품 상세페이지 CSS 작업 END */

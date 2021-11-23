@@ -1,0 +1,302 @@
+/*20211101 신정민 CSS 추가 수정 */
+/* 구글 폰트 사용 : Noto Sans KR */
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap')
+	;
+
+/* 전체 태그 적용 */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* body 영역 적용 */
+body {
+	max-width: 1080px;
+	font: 18px 'Noto Sans KR', cursive;
+	color: BLACK;
+	background-color: white;
+}
+
+/* ul 태그 적용 */
+ul {
+	list-style-type: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* 20210827 나성현,위재림 CSS 헤더 작업 END */
+/* HEADER */
+
+/* Header 상단부 */
+#header {
+	position: relative;
+	min-height: 60px;
+	border-bottom: 1px solid #e7e7e7;
+	z-index:20;
+}
+
+/* Header 로고 이미지*/
+.logo {
+	float:left;
+	height: 70px;
+}
+
+/* Header 검색 영역 */
+.search {
+	position: absolute;
+	padding-top:5px;
+	right: 20px;
+	bottom: 14px;
+	height: 36px;
+}
+
+/* Header 검색 텍스트 */
+.search_form {
+	height: 40px;
+	float: right;
+}
+
+/* Header 검색 버튼 이미지 */
+.search_button {
+	height: 43px;
+	float: right;
+}
+
+/* Header 검색 버튼 이미지 효과 */
+.search_button:hover {
+	border: 1px solid black;
+}
+
+.search input {
+	padding:0 30px 0 10px;
+	width: 120px;
+	height: 36px;
+	line-height: 34px;
+	text-align: left;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+	border-radius: 18px;
+}
+
+.search .search_button {
+	content: "";
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+/* Header 상단 메뉴 */
+.top_menu {
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+/* Header 상단 메뉴 리스트 */
+.top_menu li {
+	float: left;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+
+/* Header 상단 메뉴 첫번째 요소 */
+.top_menu li:first-child {
+	background: none;
+}
+
+/* Header 상단 메뉴 링크 설정 */
+.top_menu a {
+	display: inline-block;
+	margin-left: 18px;
+	color: #aea7a2;
+	font-size: 13px;
+	text-decoration: none;
+}
+/* Header 상단 메뉴 효과 */
+.top_menu a:hover {
+	color: #c0cde0;
+}
+
+
+
+
+/* Header 탭 메뉴 */
+#main_menu {
+	display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    color:white;
+}
+
+.tab_bar {
+	padding: 0 150px 0 150px;
+	width: 90%;
+}
+.tab_bar li a {
+	font-size: 15px;
+}
+
+/* Header 탭 메뉴 */
+.dept01 {
+	width: 14.2%;
+	float: left;
+}
+
+/* Header 탭 메뉴 텍스트 */
+.dept01>a {
+	color: black;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-decoration: none;
+}
+
+/* Header 탭 메뉴 리스트 */
+.dept02 {
+	width: 135px;
+	font-size: 120%;
+	font-weight: bold;
+	display: none;
+	color: black;
+	padding-right:35px;
+}
+
+/* Header 탭 메뉴 리스트 텍스트 */
+.dept02 a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+/* Header 탭 메뉴 와 리스트 사이 선 추가 */
+.dept02 {
+    border-top: 1px solid #e7e7e7;
+}
+
+
+/* Header 탭 메뉴 텍스트 효과 */
+.dept01>a:hover {
+	color: black;
+}
+
+/* Header 탭 메뉴 리스트 텍스트 효과 */
+.dept02 a:hover {
+	color: black;
+}
+
+/* 화면 크기가 1017px 이하일 때 */
+@media screen and (max-width:1017px) {
+	/* 메인 로고 가로 길이 조정*/
+	.logo {
+		width: 30%;
+	}
+	/* 메인 로고 이미지 가로 길이 조정*/
+	.logo img {
+		width: 30%;
+	}
+
+	/* Header 검색창 배치 조정*/
+	.search {
+		width: 50%;
+		margin-top: 2%;
+	}
+
+	/* Header 검색 텍스트 배치 조정 */
+	.search_form {
+		width: 80%;
+	}
+
+	/* Header 검색 버튼 이미지 배치 조정*/
+	.search_button {
+		width: 15%;
+	}
+
+	/* Header 상단 메뉴 배치 조정*/
+	.top_menu {
+		margin-top: 2%;
+		margin-right: 3%;
+	}
+
+	/* 탭 메뉴 숨기기*/
+	.dept01 {
+		flex-direction: column;
+		width: 100%;
+		align-items: flex-start;
+	}
+	/* 탭 메뉴 리스트 숨기기*/
+	.dept02 {
+		display: none;
+	}
+}
+/* 20210827 나성현,위재림 CSS 헤더 작업 END */
+
+/* 20210827 송석환,윤소라 CSS 푸터 작업 START */
+/* FOOTER */
+
+/* 구분 선 */
+#border {
+	margin-top:10px;
+	border: 1px solid rgb(207, 206, 206);
+}
+
+/* 푸터에 있는 리스트항목 */
+footer li {
+	text-align:center;
+	font-size: 12px;
+	padding-top:5px;
+	color:black;
+}
+
+/* 푸터에 있는 ul항목 */
+.footer-main ul {
+	text-align:center;
+	color:#c0cde0;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 20px 10px 10px;
+	width: 180px;
+}
+
+/* 로고 이미지 */
+#logo img {
+	height: 100px;
+}
+
+/* 고객센터 전화번호 */
+.footer-main #center1 {
+	margin-top: 1px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	color:#aea7a2;
+}
+
+/* 고객센터 전화번호 아이콘*/
+.footer-main #center1::before {
+	content: "\260E";
+	font-family: "Font Awesome 5 Free";
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+/* 저작권 */
+.copyright {
+	color:#aea7a2;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+/* 20210827 송석환,윤소라 CSS 푸터 작업 END */

@@ -1,0 +1,155 @@
+/* 20210830 이상훈 회원가입 css 작업 START */
+/* 20211101 송석환, 신정민 CSS 추가 수정 */
+/* 상단 */
+.join-title{
+    width: 100%;
+    margin: 0 auto 80px;
+    font-size: 15px;
+    text-align: center;
+    margin-block-start: 7em;  
+}
+
+/*  위치설정 */
+.join-box{
+    display: flex; 
+}
+
+
+/* 텍스트 박스 크기 간격 설정 */
+.area-box{
+    float: left;
+    width: 48.5%;   
+    margin-bottom: 10%;
+}
+
+/* 기본정보,이용약관 크기 간격 조정 */
+.input-title{
+	font-weight:bold;
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #575453;
+    line-height: 2;
+    border-bottom: 1px solid #777371; 
+}
+
+/* 텍스트 크기 텍스트 박스 간격 조정  */
+.input-box{
+    padding: 14px 0;
+    font-size: 14px; 
+}
+
+/* 아이디,비밀번호 등등 색 설정 */
+.label-css{
+    font-size: 13px;
+}
+
+/* 중복 확인 버튼 설정 */
+#mb_id_btn {
+	padding: 5px;
+	margin-top:10px;
+	font-size:12px;
+	background:#e7e7e7;
+	border: 1px solid #e7e7e7;
+}
+
+/* 주소 찾기 버튼 설정 */
+.find_btn{
+	padding :10px;
+	font-size:12px;
+	background:#e7e7e7;
+	border: 1px solid #e7e7e7;
+}
+/* 텍스트 박스 안에 글자, 텍스트 박스 크기 설정*/
+.input-css{
+    font-size: 13px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #cccccc;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+
+.input-css2{
+    font-size: 13px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #cccccc;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+}
+
+
+/*휴대폰,생년월일 박스크기 설정 */
+.part-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 휴대폰,생년월일 박스크기 설정 */
+.part-wrap-1{
+    display: inline-block;
+    width: calc(31.3% - 1.65px);
+    margin: 0;
+}
+/* 이메일 박스크기 설정 */
+.part-wrap-2{
+    display: inline-block;
+    width: calc(48% - 3px);
+    margin: 0;
+}
+
+/* 약관동의 간격 설정 */
+.check-box{
+    padding: 14px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* 약관동의 위치 설정 */
+ .check-input{
+    display: block;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 25px;
+    border: 1px solid #ccc;
+    color: #ccc;  
+}
+
+/*약관동의 크기 간격 설정 */
+.check-label{
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+/* 회원가입 버튼 */
+.join-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.join-btn a:hover{
+    color: #f8fad6;
+}
+
+/* 회원가입 버튼 위치 간격 등등 */
+.btn-1{
+    height: 40px;
+    border-radius: 20px;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+    background-color:#cccccc;
+    text-decoration: none;
+    width: 90%;  
+}
+
+.join-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* 20210830 이상훈 회원가입 css 작업 END */
+

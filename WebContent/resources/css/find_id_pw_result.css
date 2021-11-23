@@ -1,0 +1,86 @@
+/* 아이디찾기, 비밀번호 찾기 css */
+/*20211101 신정민 CSS 추가 수정 */
+/* 화면 설정값 */
+.container {
+	 max-width:1080px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+/* 메세지 크기 위치 설정 */
+.found-fail {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #222222;
+    text-align: center;
+    margin-block-start: 7.2em; 
+}	
+
+/* 메세지 크기 위치 설정 */
+.found-success {
+	width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #222222;
+    text-align: center;
+    margin-block-start: 7.2em; 	
+}
+
+/* 로그인 버튼 위치 정렬 */
+.found-login {
+	text-align: center;
+	 padding-top: 10%;
+}
+
+/* 회원아이디 글자 및 크기 설정 */
+.found-id {
+	font: 23px 'Noto Sans KR', cursive;
+}
+
+/* 로그인 글자 및 박스 크기 설정 */
+#btnlogin{
+	color:white;
+	padding:8px 0;
+	width:80px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+    background-color: #c0cde0;
+}
+
+/* 로그인 버튼 hover 설정 */
+#btnlogin:hover{
+	background-color: gray;
+}
+
+
+/* 다시찾기 글자 및 박스 크기 설정 */
+#btnback {
+	color:white;
+	padding:8px 0;
+	width:80px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+    background-color: #cccccc;
+}
+
+/* 회원가입 글자 및 박스 크기 설정 */
+#btnjoin {
+	color:white;
+	padding:8px 0;
+	width:80px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+    background-color: #c0cde0;
+}
+
+/* 다시찾기 버튼 hover 설정 */
+#btnback:hover{
+	background-color: gray;	
+}
+
+/* 회원가입 버튼 hover 설정 */
+#btnjoin:hover{
+	background-color: gray;
+}
+

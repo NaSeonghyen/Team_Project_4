@@ -1,0 +1,88 @@
+/* 20210830 이상훈 로그인 css 작업 START */
+/* 20211101 신정민 CSS 추가 수정 */
+/* 상단 레터 크기 위치 설정 */
+.login-title {
+    width: 100%;
+    margin: 0 auto 50px;
+    font-size: 15px;
+    color: #222222;
+    text-align: center;
+    margin-block-start: 7em; 
+}
+
+/* 바디 설정값 */
+.login-body{
+    max-width:1080px;
+    margin: 0 auto;
+    padding-bottom: 25%;
+}
+
+/* 텍스트박스 크기 설정 */
+.member-login{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* 텍스트 박스 안에 글자, 텍스트 박스 크기 설정*/
+.id_pw input{
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #cccccc;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', cursive;
+}
+
+/* 간격조정 */
+.login-set{
+    margin-bottom: 10px;
+}
+
+/* 간격조정 */
+.login-btn {
+	padding-top:20px;
+    padding-bottom: 20px;
+}
+.login-btn a:hover {
+	color: #f8fad6;
+}
+
+/* 로그인버튼 설정I */
+.login-btn-set {
+    height: 40px;
+    border-radius: 20px;
+    line-height: 30px;
+    border: 1px solid #c0cde0;
+    background-color: #c0cde0;
+    text-decoration: none;
+    width: 100%;  
+}
+
+/* 로그인버튼 설정II */
+.login-btn-set a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Noto Sans KR', cursive;
+}
+
+/*아이디 비번 찾기 */
+.login-util {
+    text-align: left;
+    font-size: 15px;
+    color: #333;
+}
+
+.login-util a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.login-util .more:hover {
+    color: #c0cde0;
+}
+
+/* 20210830 이상훈 로그인 css 작업 END */

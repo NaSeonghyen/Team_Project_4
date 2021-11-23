@@ -1,0 +1,175 @@
+/* 20210901 위재림 주문 내역 css 작업 START */
+/* 20211101 이상훈 CSS 추가 수정 */
+/* 주문내역 내 있는 링크 */
+.order_main {
+  margin-bottom:70%;
+}
+.black{
+  color : white;
+  background-color : black;
+}
+/* 주문내역 타이틀 */
+#myinfo {
+	background-color: #c0cde0;
+	border-radius: 100px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 10px;
+	font-size: 22px;
+	color: white;
+	text-align:center;
+	font-weight:bold;
+	width: 23%;
+}
+
+#mypage_menu{
+	width: 100%;
+    border: 1px solid #ccc;
+    
+    padding-bottom: 10px;	
+}
+#mypage_menu_container{
+	float:left;
+	width:19%;		
+}
+#mypage_menu_container a {
+	text-decoration: none;
+	color:#505050;
+}
+#mypage_menu div.head {
+    padding: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 18px;
+    border-top: 1pxsolid #ccc;
+    margin-top: 10px;
+}
+#mypage_menu div.item a.cart_page {
+    background: url(../img/cart.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.order_page {
+    background: url(../img/order.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.account_edit {
+    background: url(../img/account.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a.inquiry {
+    background: url(../img/inquiry.png)no-repeat 25px 50%;
+    background-size: 32px;
+}
+#mypage_menu div.item a {
+    display: block;
+    padding: 15px;
+    padding-left: 70px;
+}
+.table_main{
+	float: right;
+    width: 79%;
+    margin-top: -28px;
+}
+/* 주문내역 테이블 */
+table{
+  margin-top : 30px;
+  margin-bottom : 10px;
+  text-align : center;
+  border-collapse: collapse;
+  
+}
+/* 주문내역 테이블 헤드 */
+thead{
+  border-top:1px solid #333;
+}
+/* 주문내역 테이블 헤드,바디 */
+table th,td{
+  padding : 10px;
+  border-bottom:1px solid rgb(207, 206, 206);
+}
+/* 주문내역 테이블 바디 */
+table td{
+  text-align : center;
+}
+/* 주문내역 이미지 */
+.thum img{
+  border : 2px solid gray;
+  width : 100px;
+  height : 120px;
+}
+/* 주문내역 상품이름 */
+.order_product{
+  text-align : left;
+  font-size : 15px;
+}
+/* 주문내역  상품정보*/
+.order_product #order_leftname{
+  color : black;
+}
+
+/*  주문내역 하부 전체 */
+.order_submain{
+	width : 100%;
+	display : flex;
+	margin-top : 30px;
+	margin-bottom : 30px;
+}
+
+/* 주문내역 하부 오른쪽 버튼 */
+.order_right { 
+	margin-left : 60px;
+	margin-right : 30px;
+	margin-left : 10px;
+}
+
+
+#quan_change{
+  background-color : black;
+  color : white;
+  margin-top : 10px;
+  cursor : pointer;
+  width : 70px;
+  height : 45px;
+}
+
+/* 주문내역 페이저 전체 */
+.order_pager{
+	text-align : center;
+	margin-bottom : 10px;
+}
+/* 주문내역 페이저 */
+.order_pager li{
+	display : inline-block;
+	list-style-type: none;
+	padding : 5px;
+	margin : 10px;
+	font-size : 25px;
+}
+.bt_wrap{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 0;
+}
+/*목록 버튼 hover 설정*/
+.list_btn:hover{
+	 background-color: #cccccc;
+    color: white;
+}
+/* 목록 버튼 및 박스 크기 설정 */
+.list_btn {
+    font-size: 16px;
+	border-radius: 4px;
+	padding: 8px 20px;
+    vertical-align: middle;
+	color: white;
+    background-color: #c0cde0;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin-left: 10px;
+}
+  /* 20210901 위재림 주문내역 css 작업 END */
+  
+  
+  

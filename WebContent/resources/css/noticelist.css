@@ -1,0 +1,330 @@
+/*20211101 위재림 CSS 수정 작업 */
+/*common*/
+* {
+  text-decoration: none;
+  color: black;
+}
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.board_title {
+    margin-bottom: 30px;
+}
+
+.board_title strong {
+    font-size: 3rem;
+}
+
+.bt_wrap {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a {
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap a:first-child {
+    margin-left: 0;
+}
+
+.bt_wrap a.on {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    color: white;
+}
+.bt_wrap a.on:hover {
+    background-color: #c0cde0;
+    color: white;
+}
+
+/*공지사항 부분*/
+.title {
+	
+  text-align: center;
+ 
+  color: #222222;
+  margin: 0 auto 65px;
+ 
+}
+
+.title h2{
+    font-size: 30px;
+}
+#category {
+  display: flex;
+  margin: 20px 50px;
+}
+
+.board_table_wrap {
+ 
+    margin-top: 16px;
+    width:100%;
+}
+
+.board_table_head,
+.board_table_body .item {
+  padding: 10px 0;
+  font-size: 0;
+}
+
+.board_table_head {
+  border-top: 2px solid;
+  border-bottom: 1px solid #ccc;
+}
+
+.board_table_body .item {
+  border-bottom: 1px solid #ccc;
+}
+
+.board_table_head > div,
+.board_table_body .item > div {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.board_table_head > div {
+  font-weight: 600;
+}
+
+.board_table .num {
+  width: 10%;
+}
+
+.board_table .tit {
+  width: 55%;
+}
+
+.board_table_body div.tit {
+  text-align: left;
+}
+
+.board_table_body div.tit a:hover {
+  text-decoration: underline;
+}
+
+.board_table .writer {
+  width: 10%;
+}
+
+.board_table .date {
+  width: 15%;
+}
+.board_table .hit{
+	width:5%;
+}
+
+
+
+
+/*검색 및 글쓰기 부분*/
+
+.search_write {
+  float: left;
+  margin-top: 8%;
+  margin-left: 35%;
+
+}
+
+#write {
+  float: right;
+  right: 0px;
+  margin-top: 10px;
+}
+
+#write_btn {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  margin-right: -8px;
+}
+
+select {
+  width: 75px;
+  height: 22px;
+}
+
+.search_write input {
+  width: 200px;
+  height: 25px;
+}
+
+#selectcss_a{
+	color: #333;
+	font-size: 14px;
+	width:100px;
+	height: 28px;
+}
+
+#search_btn {
+  width: 50px;
+  height: 30px;
+  color: white;
+  background-color: #333;
+  vertical-align: middle;
+}
+
+/* 글 등록 및 박스 크기 설정 */
+.insert_btn {
+    font: 16px 'Noto Sans KR', cursive;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 15px 8px 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* 글 등록 버튼 hover 설정 */
+.insert_btn:hover {
+ 	
+    background-color: #c0cde0;
+    color: white;
+}
+
+
+
+/* 페이지 표시 부분 */
+.page_num {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.page-list{
+	margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* 페이지 번호 글자 크기 설정 */
+.page-list ul {
+    font-size: 15px;
+}
+
+/* 페이지 번호 배치 설정 */
+.page-list li {
+    display: inline;
+}
+
+/* 페이지 번호 박스 및 크기 설정 */
+.page-list a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+
+.page-list a.button{
+    padding-top: 5px;
+    text-decoration: none;
+    
+   
+    
+}
+
+.page-list a.btn {
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.btn-first {
+    border: solid 1px #707070;
+}
+.btn-num {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+
+.page-list a:hover {
+    background-color: #c0cde0;
+    color: white;
+}
+.page-list .a{
+	color: hsl(0, 0%, 52%);
+}
+#sub_tit {
+	font-size: 24px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 700;
+
+}
+.checkpass{
+	width:100%;
+}
+
+.checkpass h1{
+	font-size:30px;
+	color:#333;
+}
+
+input#check-btn {
+	font-size: 14px;
+	border-radius: 4px;
+	padding: 5px 5px 5px 5px;
+	color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 10px;
+}
+input#check-btn:hover {
+	background-color: #c0cde0;
+    color: white;
+}
+
+input[type="password"] {
+	padding: 5px;
+}	
+
+.ms-wrap{
+	margin-top:12px;
+}
+
+form{
+	margin-top:12px;
+}
+#notice_image {
+    background: url(../img/notice2.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top:-80px;
+}
+li {
+    list-style-type: none;
+}
+#notice_title{
+	font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}

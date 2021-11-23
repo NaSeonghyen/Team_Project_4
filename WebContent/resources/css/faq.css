@@ -1,0 +1,272 @@
+/* 20210831 정주연 Q&A FAQ css 작업 START */
+/*20211101 이상훈 CSS 추가 수정 */
+/*FAQ 부분*/
+
+#wrap{
+	margin:100px auto;
+}
+
+#faq_title {
+ 	font-size:15px;
+    text-align: center;
+    margin: 0 auto 65px;
+}
+
+
+
+#faq_subtitle{
+	font-size: 16px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 700;
+}
+#category_wrap {
+    margin-top:16px;
+    border-top: 2px solid;
+    
+}
+
+#category {
+    display: flex;
+    margin: 20px;
+}
+
+.accrodion{
+	margin-top:16px;
+}
+.accrodion img {
+	vertical-align: middle;
+}
+.a-right{
+	float: right;
+    margin-top: -120px;
+}
+.list-item h3{
+	
+    font-size: 15px;
+    color: #fff;
+    padding:27px 25px 25px 32px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.list-item a{
+	background: #c0cde0;
+    border: 1pxsolid #f4919c;
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    display: block;
+	text-decoration: none;
+    color: black;
+}
+
+#w_br{
+	display:block;
+}
+/*FAQ 항목*/
+input[id*="anw01"],
+input[id*="anw02"],
+input[id*="anw03"],
+input[id*="anw04"],
+input[id*="anw05"],
+input[id*="anw06"],
+input[id*="anw07"],
+input[id*="anw08"],
+input[id*="anw09"],
+input[id*="anw10"],
+input[id*="anw11"],
+input[id*="anw12"] {
+    display: none;
+}
+
+input[id*="anw01"] + label,
+input[id*="anw02"] + label,
+input[id*="anw03"] + label,
+input[id*="anw04"] + label,
+input[id*="anw05"] + label,
+input[id*="anw06"] + label,
+input[id*="anw07"] + label,
+input[id*="anw08"] + label,
+input[id*="anw09"] + label,
+input[id*="anw10"] + label,
+input[id*="anw11"] + label,
+input[id*="anw12"] + label {
+    display: block;
+    padding: 10px;
+    border-bottom: 20px;
+    color: #333;
+    font-weight: 1000;
+    cursor: pointer;
+    border-bottom:1px solid #cccccc;
+    font-size:17px;
+
+}
+
+input[id*="anw01"] + label em,
+input[id*="anw02"] + label em,
+input[id*="anw03"] + label em,
+input[id*="anw04"] + label em,
+input[id*="anw05"] + label em,
+input[id*="anw06"] + label em,
+input[id*="anw07"] + label em,
+input[id*="anw08"] + label em,
+input[id*="anw09"] + label em,
+input[id*="anw10"] + label em,
+input[id*="anw11"] + label em,
+input[id*="anw12"] + label em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+input[id*="anw01"] + label + div,
+input[id*="anw02"] + label + div,
+input[id*="anw03"] + label + div,
+input[id*="anw04"] + label + div,
+input[id*="anw05"] + label + div,
+input[id*="anw06"] + label + div,
+input[id*="anw07"] + label + div,
+input[id*="anw08"] + label + div,
+input[id*="anw09"] + label + div,
+input[id*="anw10"] + label + div,
+input[id*="anw11"] + label + div,
+input[id*="anw12"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: auto;
+    background: #ebf8ff;
+    font-size: 20px;
+}
+
+input[id*="anw01"] + label + div p,
+input[id*="anw02"] + label + div p,
+input[id*="anw03"] + label + div p,
+input[id*="anw04"] + label + div p,
+input[id*="anw05"] + label + div p,
+input[id*="anw06"] + label + div p,
+input[id*="anw07"] + label + div p,
+input[id*="anw08"] + label + div p,
+input[id*="anw09"] + label + div p,
+input[id*="anw10"] + label + div p,
+input[id*="anw11"] + label + div p,
+input[id*="anw12"] + label + div p {
+    
+    padding: 25px;
+    font-size:16px;
+}
+
+input[id*="anw01"]:checked + label + div,
+input[id*="anw02"]:checked + label + div,
+input[id*="anw03"]:checked + label + div,
+input[id*="anw04"]:checked + label + div,
+input[id*="anw05"]:checked + label + div,
+input[id*="anw06"]:checked + label + div,
+input[id*="anw07"]:checked + label + div,
+input[id*="anw08"]:checked + label + div,
+input[id*="anw09"]:checked + label + div,
+input[id*="anw10"]:checked + label + div,
+input[id*="anw11"]:checked + label + div,
+input[id*="anw12"]:checked + label + div {
+    max-height: 190px;
+    background-color:#c0cde0;
+   
+}
+
+input[id*="anw01"]:checked + label em,
+input[id*="anw02"]:checked + label em,
+input[id*="anw03"]:checked + label em,
+input[id*="anw04"]:checked + label em,
+input[id*="anw05"]:checked + label em,
+input[id*="anw06"]:checked + label em,
+input[id*="anw07"]:checked + label em,
+input[id*="anw08"]:checked + label em,
+input[id*="anw09"]:checked + label em,
+input[id*="anw10"]:checked + label em,
+input[id*="anw11"]:checked + label em,
+input[id*="anw12"]:checked + label em {
+    background-position: 0 -30px;
+}
+
+div#faq_icon{
+	float:left;
+	margin-top:5px;
+}
+div#faq_text{
+	float:right;
+}
+
+/*페이지 표시 부분*/
+.page_num {
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.page_num a{
+    text-decoration: none;
+    color: black;
+}
+.page_num {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.page-list{
+	margin-top: 100px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+/* 페이지 번호 글자 크기 설정 */
+.page-list ul {
+    font-size: 15px;
+}
+
+/* 페이지 번호 배치 설정 */
+.page-list li {
+    display: inline;
+}
+
+/* 페이지 번호 박스 및 크기 설정 */
+.page-list a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+
+.page-list a.button{
+    padding-top: 5px;
+    text-decoration: none;
+    
+   
+    
+}
+
+.page-list a.btn {
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.btn-first {
+    border: solid 1px #707070;
+}
+.btn-num {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.page-list a:hover {
+   background-color: #c0cde0;
+    color: white;
+}
+
+/* 20210831 정주연 Q&A FAQ css 작업 END */

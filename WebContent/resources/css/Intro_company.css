@@ -1,0 +1,63 @@
+/* 20210831 윤소라 회사소개 css 작업 START */
+/* 20211101 신정민 CSS 추가 수정 */
+/* 회사소개 글 타이틀 */
+#company_name{
+    text-align : left;
+    width : 40%;
+    border-bottom : 3px solid #e7e7e7;
+    margin : 50px 0;
+    margin-left : 50px;
+    padding : 5px;
+}
+b{
+	color:#c0cde0;
+}
+/* 회사소개 예시 img*/
+#company_image{
+    background : url("../img/example_company.png") no-repeat;
+    background-size : cover;
+    width : 90%;
+    height : 300px;
+    position : relative;
+}
+/* 회사소개이미지 글1*/
+#company_image h2{
+    position : absolute;
+    right : 40px;
+    top : 20px;
+    text-align: right;
+    color:white;
+}
+/* 회사소개 이미지 글2 */
+#company_image h3{
+    position : absolute;
+    right : 40px;
+    top : 80px;
+    text-align: right;
+    color:white;
+}
+/* 전체 회사선택 이유 */
+.company_reason {
+    width : 90%;
+    padding : 10px;
+    margin-bottom : 20px;
+    text-align : center;
+}
+/* 각 회사선택 이유 */
+#reason {
+    border-radius : 100%;
+    display : inline-block;
+    background:white;
+    border : 2px solid #c0cde0;
+    margin : 20px 40px;
+    padding : 20px;
+    vertical-align: top;
+    margin-bottom:100px;
+}
+/* 각 회사선택 이유 글제목과 내용 */
+#reason li{
+    width : 170px;
+    padding : 5px;
+    margin : 5px;
+}
+/* 20210831 윤소라 회사소개 css 작업 END */

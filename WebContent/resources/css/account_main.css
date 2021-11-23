@@ -1,0 +1,69 @@
+/* 20210901 나성현 계정찾기 메인 css 작업 START */
+/*20211101 신정민 CSS 추가 수정 */
+/* SECTION 화면 설정값 */
+section {
+    max-width:1080px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+
+/* 상단 제목 크기 위치 설정 */
+.account_title {
+    width: 100%;
+    font-size:15px;
+    margin: 0 auto;
+    color: #222222;
+    text-align: center;
+    margin-block-start: 5em; 
+}
+
+/* 아이디 및 비번 찾기 박스 위치 설정 */
+.account_list {
+    width: 100%;
+    padding:30px 0 80px 0;
+    text-align: center;
+    margin-block-start: 5em; 
+}
+
+/* 아이디,비번 찾기 링크 제거 */
+.account_list a {
+    text-decoration: none;
+}
+
+
+/* 아이디 찾기 크기 및 글자 설정*/
+.account_id {
+	font-weight:bold;
+    border: 3px solid #dddddd;
+    padding: 6% 2%;
+    border-radius: 20px;
+    background-color:#dddddd;
+    color:white;
+    font-size: 30px;
+    
+}
+
+/* 아이디 찾기에 마우스를 올릴 때 효과 */
+.account_id:hover {
+    background-color:gray;
+}
+
+
+/* 비밀번호 찾기 크기 및 글자 설정*/
+.account_pw {
+	font-weight:bold;
+	border-radius: 20px;
+    border: 3px solid #c0cde0;
+    padding: 6% 1%;
+    background-color:#c0cde0;
+    color:white;
+    font-size: 30px;
+}
+
+/* 비밀번호 찾기에 마우스를 올릴 때 효과 */
+.account_pw:hover {
+    background-color: gray;
+}
+
+/* 20210901 나성현 계정찾기 메인 css 작업 END */

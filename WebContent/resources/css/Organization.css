@@ -1,0 +1,25 @@
+/* 20210901 윤소라 조직도 css 작업 START */
+/* 20211101 신정민 CSS 추가 수정 */
+/* 조직도페이지 */
+#organization_main{
+    margin : 20px 0 50px 0;
+    text-align : center;
+}
+/* 조직도이름 */
+#organization_name{
+    text-align : left;
+    width : 40%;
+    border-bottom : 3px solid #e7e7e7;
+    margin : 50px 0;
+    margin-left : 50px;
+    padding : 5px;
+}
+b{
+	color:#c0cde0;
+}
+/* 조직도 */
+#organization_main img{
+    padding : 5%;
+}
+
+/* 20210901 윤소라 조직도 css 작업 END */

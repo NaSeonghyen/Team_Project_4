@@ -1,0 +1,161 @@
+/* 20210827 이상훈,정주연 CSS 메인 콘테이너 작업 START */
+/*20211101 나성현, 이상훈 CSS 추가 수정 */
+/* 이미지 슬라이드 부분 */
+
+.slider .slider-img img{
+    width: 100%;
+}
+
+/* 이너 메뉴(추천코디, BEST) 부분 */
+.item_title {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.item_title .title {
+    margin-left: 5px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.item_title .more {
+    margin-right: 5px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size:27px;
+}
+#more_btn{
+	font-size: 18px;
+    margin-left: 5px;
+}
+
+.item_title .more:hover {
+    color: #c0cde0;
+}
+
+
+.prod_info {
+    padding-bottom: 60px;
+}
+
+.prod_info ul {
+    display: flex;
+}
+
+.prod_info ul li {
+    margin-right: 20px;
+}
+
+.prod_info ul li:last-child{
+    margin-right: 0;
+}
+
+.prod_info ul li img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.info {
+    text-align: center;
+}
+
+.price {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 공지사항 부분 */
+#notice_content {
+    display: flex;
+    width:100%;
+}
+#notice {
+    marign-left:100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    width:50%;
+    margin-right: -46px;
+}
+.content {
+    width: 100%;
+   
+}
+
+#notice .title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#notice .more {
+    
+    padding-left: 79px;
+    padding-right: 10px;
+    mar
+}
+
+.content ul li {
+    color: #666666;
+}
+
+.content .subject {
+    float: left;
+    font-size:17px;
+}
+	
+
+.subject a {
+    text-decoration: none;
+    color: black;
+}
+
+.content .date {
+    float:right;
+    padding-left: 20px;
+    padding-right: 74px;
+    font-size:17px;
+}
+
+/* FAQ 부분 */
+#faq{
+	width:23%;
+    text-decoration: none;
+    float: left;
+}
+
+#faq .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+#faq .title img{
+	height:170px;
+	margin-top:-23px;
+	
+ 
+}
+
+#faq .content{
+    width: 100%;
+    font-size: 18px;
+    line-height: 10px;
+    color: #1a1a1a;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 화면 크기가 800px 이하일 때 */
+@media screen and (max-width:1000px) {
+    #notice {
+        padding-right: 120px;
+    }
+
+}
+/* 20210827 이상훈,정주연 CSS 메인 콘테이너 작업 END */

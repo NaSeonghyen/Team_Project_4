@@ -1,0 +1,98 @@
+/* 20210901 나성현 비밀번호 찾기 css 작업 START */
+/*20211101 신정민 CSS 추가 수정 */
+/* SECTION 화면 설정값 */
+section {
+    max-width:1080px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+/* 상단 제목 크기 위치 설정 */
+.account_pw_title {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #222222;
+    text-align: center;
+    margin-block-start: 5em; 
+}
+
+/* 비밀번호찾기 메인 영역 위치 설정 */
+.find_pw {
+	padding-top:30px;
+    width: 40%;
+    margin-block-start: 1em; 
+}
+
+/* 텍스트 박스 간격 조정  */
+.input-box{
+    margin-bottom: 25px;
+}
+
+/* 이름, 아이디 등등 색 설정 */
+.label-css {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    font-weight: 500;
+}
+
+/* 이름, 아이디 텍스트 박스 안에 글자, 텍스트 박스 크기 설정 */
+.input-css{
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #cccccc;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+
+/* 확인, 취소 버튼 위치 정렬 */
+.submit_reset {
+    text-align: center;
+    padding-top:30px;
+}
+
+/* 확인 글자 및 박스 크기 설정 */
+.sub_btn {
+    color:white;
+	padding:8px 0;
+	width:80px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+    background-color: #cccccc;
+}
+
+/* 확인 버튼 hover 설정 */
+.sub_btn:hover {
+    background-color: gray;
+}
+
+/* 취소 버튼 hover 설정 */
+.res_btn:hover {
+    background-color: gray;
+}
+
+/* 취소 글자 및 박스 크기 설정 */
+.res_btn {
+   color:white;
+	padding:8px 0;
+	width:80px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+    background-color: #c0cde0;
+}
+
+/* 확인 밑줄 제거 및 글자색 설정 */
+.sub_btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 취소 밑줄 제거 */
+.res_btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 20210901 나성현 비밀번호 찾기 css 작업 END */
